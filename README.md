@@ -68,6 +68,7 @@ This will:
 ## Example output
 
 [GPX file without elevation](https://raw.githubusercontent.com/loreclem/bike_route/refs/heads/main/sample_output/my_route.gpx)
+
 [GPX file wit elevation](https://raw.githubusercontent.com/loreclem/bike_route/refs/heads/main/sample_output/my_route_ele.gpx)
 
 ![Elevation profile](https://github.com/loreclem/bike_route/blob/main/sample_output/my_route.png?raw=true)
@@ -112,6 +113,7 @@ This is an early release — feedback and contributions are welcome
 ## License
 
 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+
 Please refer to the repository for license details.
 
 ## Acknowledgements

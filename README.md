@@ -70,7 +70,7 @@ This will:
 [GPX file without elevation](https://raw.githubusercontent.com/loreclem/bike_route/refs/heads/main/sample_output/my_route.gpx)
 [GPX file wit elevation](https://raw.githubusercontent.com/loreclem/bike_route/refs/heads/main/sample_output/my_route_ele.gpx)
 
-![Elevation profile and summary]([https://github.com/loreclem/bike_route/blob/main/sample_output/my_route.png?raw=true))
+![Elevation profile](https://github.com/loreclem/bike_route/blob/main/sample_output/my_route.png?raw=true)
 
 ## Requirements
 

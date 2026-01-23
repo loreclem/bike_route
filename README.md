@@ -19,7 +19,7 @@ The tool relies on **OSMnx**, **NetworkX**, and the **OpenTopoData** free elevat
 - ⛰️ Elevation enrichment using OpenTopoData (SRTM 90 m)  
 - 📈 Automatic elevation profile plot (PNG)  
 - 💾 Local SQLite cache for elevation queries  
-- ⚙️ Simple and scriptable CLI interface  
+- ⚙️ Simple CLI interface  
 
 ## Package structure
 
@@ -57,7 +57,7 @@ In order to reduce the size of the OSMnx graph to be downloaded and to speed-up 
       --start-lat 42.702442 --start-lon 9.452907 \
       --end-lat 42.268426 --end-lon 8.693644 \
       --waypoints 42.564580 8.976084 42.518302 8.693800 \
-      --output bike_route_corsica.gpx \
+      --output my_route.gpx \
       --ele
 
 This will:

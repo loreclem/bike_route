@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bike_route"
+version = "0.2.0"
+description = "A GPX route generator with elevation enrichment"
+requires-python = ">=3.9"
+dependencies = [
+    "osmnx",
+    "networkx",
+    "gpxpy",
+    "requests",
+    "shapely",
+    "matplotlib",
+    "numpy",
+]
+
+[project.scripts]
+# This creates a command 'bike-route' in the terminal
+bike_route = "bike_route.main:main"

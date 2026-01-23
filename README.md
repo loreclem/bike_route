@@ -21,10 +21,14 @@ The tool relies on **OSMnx**, **NetworkX**, and the **OpenTopoData** free elevat
 - 💾 Local SQLite cache for elevation queries  
 - ⚙️ Simple and scriptable CLI interface  
 
+## Package structure
+
+The helpers and global configuration is to be found in `utils.py`: here you can for example adapt the `FORBIDDEN_HIGHWAYS`and `ALLOWED_SURFACES` to match your preferences.
+The main logic of the program is in `main.py`.
 
 ## Command-line interface (CLI)
 
-    usage: bike_route.py [options]
+    usage: bike_route [options]
 
 Required arguments:
 
@@ -49,7 +53,7 @@ In order to reduce the size of the OSMnx graph to be downloaded and to speed-up 
 ## Example usage
 
 
-    $ python bike_route.py \
+    $ bike_route \
       --start-lat 42.702442 --start-lon 9.452907 \
       --end-lat 42.268426 --end-lon 8.693644 \
       --waypoints 42.564580 8.976084 42.518302 8.693800 \
@@ -96,8 +100,9 @@ Clone the repository:
     
     git clone https://github.com/loreclem/bike_route.git
     cd bike_route
+    pip install -e .
     
-Install dependencies (example using pip):
+If needed, the explicit list of dependencies is provided in `requirements.txt` (example using pip):
     
     pip install -r requirements.txt
 

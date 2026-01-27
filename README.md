@@ -108,11 +108,11 @@ If needed, the explicit list of dependencies is provided in `requirements.txt` (
 
 ## Notes
 
-Elevation data is cached locally in elevation_cache.sqlite
-OpenTopoData usage is rate-limited; caching avoids repeated queries
-Routing quality depends on OpenStreetMap tagging completeness
-Some of the code has been written or proofed with the help of AI
-This is an early release — feedback and contributions are welcome
+- Elevation data is cached locally in elevation_cache.sqlite
+- OpenTopoData usage is rate-limited; caching avoids repeated queries
+- Routing quality depends on OpenStreetMap tagging completeness
+- Some of the code has been written or proofed with the help of AI
+- This is an early release — feedback and contributions are welcome
 	
 
 ## License
